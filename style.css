@@ -1,0 +1,44 @@
+:root{
+    --heading-pink : rgba(230, 55, 104, 0.854);
+    --dark-red : rgb(149, 11, 11);
+    --light-blue : rgba(40, 165, 212, 0.639)
+}
+
+#heading-main,#line{
+    
+    color: var(--heading-pink);
+    text-align: center;
+}
+.main-block{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+   text-align: center;
+}
+#label-choice{
+    font-size: x-large;
+    color: var(--heading-pink);
+    padding-right: 15px;
+}
+#choice-id{
+    color: var(--dark-red);
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border-color: var(--heading-pink);
+}
+
+
+#ok-btn{
+    width: 80px;
+    margin: 30px;
+    border: 10px;
+    padding: 5px;
+    color: var(--heading-pink);
+    font-size: x-large;
+    font-weight: bolder;
+    background-color:var(--light-blue) ;
+    border-radius: 20px;
+    border-color: var(--dark-red);
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
